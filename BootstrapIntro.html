@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ 
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<!-- Set the page to the width of the device and set the zoom level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Devin Dai</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<style type="text/css">
+ 
+<style>
+.jumbotron{
+    background-color: #2E2D88;
+    color: white;
+}
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+#pic{
+	height: 600px;
+	width: 1100px;
+}
+
+body{
+	background-image: url("https://i.imgur.com/VQaJKNO.png?2");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+h1{
+	font-size: 4em;
+	font-family: "Pacifico", cursive;
+
+}
+
+.slide1{
+  background-image: url('http://inn.spb.ru/images/700/DSC100795802.jpg');
+  height: 600px;
+  width: 1100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide2{
+  background-image: url('http://xboxportugal.com/wp-content/uploads/2018/08/anime-landscape-wallpaper-1920x1080-ultra-hd-art-city-4k-ultra-hd-wallpaper.jpg');
+  height: 600px;
+  width: 1100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide3{
+  background-image: url('http://xboxportugal.com/wp-content/uploads/2018/08/anime-landscape-wallpaper-1920x1080-ultra-hd-peaceful-hd-widescreen-wallpapers-dfl-4k-ultra-hd-backgrounds.jpg');
+  height: 600px;
+  width: 1100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide4{
+  background-image: url('https://4.bp.blogspot.com/-JOjCRTyPSVQ/UlKbAN2G98I/AAAAAAAACjc/pCY5IdBO-R4/s1600/Sakura+Tree+HD+Wallpapers+0.jpg');
+  height: 600px;
+  width: 1100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-inner {
+  height: auto;
+}
+
+.carousel-control-prev {
+  margin-left: 0px;
+}
+
+.carousel-control-next {
+  margin-right: 0px;
+}
+
+</style>
+ 
+</head>
+<body>
+ 
+<!-- CONTAINERS -->
+<!-- container puts padding around itself while container-fluid fills the whole screen. Bootstap grids require a container. -->
+<div class="container">
+
+<div class="page-header">
+<h1>Devin Dai</h1>
+</div>
+
+
+<div id="theCarousel" class="carousel slide" data-ride="carousel">
+
+	<ol class="carousel-indicators">
+	<li data-target="#theCarousel" date-slide-to="0" class="active"></li>
+	<li data-target="#theCarousel" date-slide-to="1"></li>
+	<li data-target="#theCarousel" date-slide-to="2"></li>
+	<li data-target="#theCarousel" date-slide-to="3"></li>
+	</ol>
+
+	<div class="carousel-inner">
+		<div class="item active">
+		<div class="slide1"></div>
+		<div class="carousel-caption">
+			<h5>Anime Art 1</h5>
+		</div>
+		</div>
+
+		<div class="item">
+		<div class="slide2"></div>
+		<div class="carousel-caption">
+			<h5>Anime Art 2</h5>
+		</div>
+		</div>
+
+		<div class="item">
+		<div class="slide3"></div>
+		<div class="carousel-caption">
+			<h5>Anime Art 3</h5>
+		</div>
+		</div>
+		
+		<div class="item">
+		<div class="slide4"></div>
+		<div class="carousel-caption">
+			<h5>Anime Art 4</h5>
+		</div>
+		</div>
+		
+	</div>
+			
+	<!--		
+	<a class="left control-control" href="#theCarousel" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+	<a class="right control-control" href="#theCarousel" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
+	-->
+	
+	<a class="carousel-control-prev" href="#theCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control-next" href="#theCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+		
+
+</div>
+
+
+
+<div class="jumbotron">
+<p>Online Resources</p>
+<p>
+<a href = "https://www.watchcartoononline.io/" class = "btn btn-default btn-lg" role  =  "button">Watch Anime</a>
+<button type = "submit" class =  "btn btn-danger" role="button">Button</button>
+<input type="button" value="Info" class = "btn btn-info">
+<button type="submit" class = "btn-primary btn-sm">Primary</button>
+<button type="submit" class = "btn btn-success btn-xs">Success</button>
+<button type="submit" class = "btn btn-warning btn-lg">Warning</button>
+<button type="submit" class = "btn btn-link btn-lg">Link</button>
+
+<button type="button" class="btn btn-lg btn-primary" disabled="disabled">disable</button>
+
+<a href = "#" class = "btn btn-default btn-lg disabled" role  =  "button">disable link</a>
+
+<div class="btn-group btn-group-lg" role="group">
+<button type="button" class = "btn btn-default">small</button>
+<button type="button" class = "btn btn-default">medium</button>
+<button type="button" class = "btn btn-default">large</button>
+</div>
+
+</p>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<h3><a href="#col1" data-toggle="collapse">Column 1</a></h3>
+<div id="col1" class="collapse">Bootstrap is a free front-end framework for faster and easier web development
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, models, image carousels and many other, as well as optional JavaScript plugins
+Bootstrap also gives you the ability to easily create responsive designs</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<h3><a href="#col2" data-toggle="collapse">Column 2</a></h3>
+<div id="col2" class="collapse">Bootstrap 4 is the newest version of Bootstrap; with new components, faster stylesheet and more responsiveness. Bootstrap 4 supports the latest, stable releases of all major browsers and platforms. However, Internet Explorer 9 and down is not supported.
+</div>
+</div>
+
+<div class="clearfix visible-sm"></div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<h3><a href="#col3" data-toggle="collapse">Column 3</a></h3>
+<div id="col3" class="collapse">Advantages of Bootstrap:
+Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+Mobile-first approach: In Bootstrap, mobile-first styles are part of the core framework
+Browser compatibility: Bootstrap 4 is compatible with all modern browsers (Chrome, Firefox, Internet Explorer 10+, Edge, Safari, and Opera)
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<h3><a href="#col4" data-toggle="collapse">Column 4</a></h3>
+<div id="col4" class="collapse">The Bootstrap 4 grid system has five classes:
+.col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-0 "></div>
+<div class="col-md-6 ">
+<table class="table table-bordered table-hover table-dark">
+<thead>
+      <tr>
+        <th>Code Name</th>
+        <th>Faction</th>
+        <th>Series</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rampage</td>
+        <td>Predacon</td>
+        <td>Beast Wars</td>
+      </tr>
+      <tr>
+        <td>Depthcharge</td>
+        <td>Maximal</td>
+        <td>Beast Wars</td>
+      </tr>
+      <tr>
+        <td>TigerHawk</td>
+        <td>Maximal</td>
+        <td>Beast Wars</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--
+<script src="js/bootstrap.min.js"></script>
+-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
